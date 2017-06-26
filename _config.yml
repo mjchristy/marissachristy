@@ -3,4 +3,4 @@ markdown: kramdown
 permalink: /blog/:title
 github: [metadata]
 sass:
-	sass_dir: _sass
+  sass_dir: _sass

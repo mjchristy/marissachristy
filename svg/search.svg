@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="370px" height="96px" viewBox="0 0 370 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="370" height="96"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="370" height="96" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-8" transform="translate(-32.000000, -32.000000)">
+            <g id="Group-3" transform="translate(32.000000, 32.000000)">
+                <use id="Rectangle-2" stroke="#000000" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                <g id="Group-2" transform="translate(54.331017, 50.763431) rotate(-47.000000) translate(-54.331017, -50.763431) translate(30.331017, 15.263431)" stroke-width="2">
+                    <circle id="Oval" stroke="#000000" cx="24" cy="24" r="24"></circle>
+                    <path d="M24,50 L24,71" id="Line" stroke="#111111" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

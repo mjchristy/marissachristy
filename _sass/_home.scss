@@ -1,12 +1,12 @@
 .home  {
-	margin-top: 10rem;
+	margin-top: 8rem;
 }
 
 #portfolio {
-	margin-top: 10em;
+	margin-top: 8em;
 }
 
-.tracked-heading {
+.text-tracked {
 	font-size: .75rem;
 	letter-spacing: .1667em;
 	text-transform: uppercase;
@@ -14,26 +14,12 @@
 
 .portfolio-item {
    box-sizing: border-box;
-   margin-bottom: 8rem;
-}
-
-
-
-a.portfolio-item__img {
-  background: #fff;
-  width: 100%;
-  cursor: pointer;
-  display: block;
+   margin: auto -16px 6rem;
 }
 
 .portfolio-item:hover {
   outline: none;
   cursor: pointer;
-}
-
-
-.portfolio-item {
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -48,18 +34,35 @@ a.portfolio-item__img {
   line-height: 1.5em;
 }
 
+portfolio-item__tag {
+  @extend .text-tracked;
+}
+
 .portfolio-item__title {
   line-height: 2.25rem;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 100;
   margin-top: .5em;
   font-weight: bold;
-  
+  &:after {
+    border-bottom: 2px solid #000;
+    content: "";
+    display: block;
+    margin:.5em 0;
+    width: 2rem;
+  }
+}
+
+a.portfolio-item__img {
+  background: #fff;
+  width: 100%;
+  cursor: pointer;
+  display: block;
 }
 
 .portfolio-item__dek{
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.75em;
 }
 
 

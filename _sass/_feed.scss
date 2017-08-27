@@ -1,0 +1,39 @@
+.feed {
+  margin-top: 4rem;
+}
+
+.feed-title {
+  text-align: center;
+
+  &:after {
+    border-bottom: 2px solid #000;
+    content: "";
+    display: block;
+    margin:.5em auto;
+    width: 2rem; 
+  }
+}
+
+label {
+@extend .text-tracked;
+display: block;
+margin-bottom: .5rem;
+
+}
+
+.feed-list-item {
+  list-style-type: none;
+  padding: 2rem 0em;
+  border-bottom: 1px solid #000;
+}
+
+.feed-item-title {
+  font-family: $serif;
+  font-size: 1.5rem;
+  line-height: 1em;
+}
+
+.feed-footer {
+  margin-top: 3rem;
+  text-align: center;
+}

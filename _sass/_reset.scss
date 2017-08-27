@@ -242,8 +242,9 @@ figure {
 }
 img {
   vertical-align: middle;
+    max-width: 100%;
 }
-.img-responsive {
+.img {
   display: block;
   max-width: 100%;
   height: auto;

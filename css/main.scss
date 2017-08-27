@@ -10,7 +10,7 @@
 
 .logo {
 	font-weight: bold;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	font-family: $serif;
 	float: left;
 	cursor: pointer;
@@ -19,16 +19,23 @@
 	}
 }
 
+body {
+  margin: 2em;
+}
+
+.home, .centered-content {
+  max-width: 1120px;
+  margin: auto;
+}
+
 .main {
-	max-width: 1120px;
 	margin: 2em auto 0;
 }
 
 header {
-	height: 3em;
-	margin-bottom: 4em;
+	padding-bottom:4em;
 	max-width: 1312px;
-	margin: 4em auto 0;
+	margin: 4em auto 4em;
 }
 
 nav {
@@ -47,9 +54,52 @@ nav {
 	}
 }
 
+.project_category {
+    @extend .text-tracked;
+}
+
+.project p{
+  font-size: 1.25rem;
+  line-height: 2rem;
+  padding-right: 117px;
+}
+
+
+p.project_subtitle {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-family: $serif;
+  font-style: italic;
+  margin-top: 0rem;
+}
+
+.caption {
+  font-size: .75rem;
+  color: #777;
+}
+
+.divider {
+  height: 2px;
+  display: block;
+  width: 100px;
+  margin: 3rem 0;
+  background-color: $black;
+}
+
 
 footer {
   margin-top: 10rem;
   text-align: center;
 }
+
+
+.featured-image {
+  background-positition: center center;
+  background-size: cover;
+  height: 600px;
+}
 /*Utils========*/
+
+.bordered-img {
+  border: 1px solid #ddd;
+}

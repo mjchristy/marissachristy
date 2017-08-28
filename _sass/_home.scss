@@ -2,6 +2,16 @@
 	margin-top: 8rem;
 }
 
+.home h1 {
+  font-size: 5rem;
+  line-height:5.5rem;
+  margin-top: 6rem;
+
+}
+
+.feed {
+  display: none;
+}
 #portfolio {
 	margin-top: 8em;
 }
@@ -14,7 +24,7 @@
 
 .portfolio-item {
    box-sizing: border-box;
-   margin: auto -16px 6rem;
+   margin: auto -16px 10rem;
 }
 
 .portfolio-item:hover {
@@ -31,7 +41,7 @@
 }
 
 .portfolio-item p{
-  line-height: 1.5em;
+  line-height: 1.25em;
 }
 
 portfolio-item__tag {
@@ -39,8 +49,8 @@ portfolio-item__tag {
 }
 
 .portfolio-item__title {
-  line-height: 2.25rem;
   font-size: 3rem;
+  line-height: 1em;
   font-weight: 100;
   margin-top: .5em;
   font-weight: bold;

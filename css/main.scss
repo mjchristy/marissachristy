@@ -4,9 +4,10 @@
 
 @import 'reset';
 @import 'theme';
-@import 'grid';
+@import 'bootstrapgrid';
 @import 'home';
 @import 'feed';
+@import 'single';
 
 .logo {
 	font-weight: bold;
@@ -19,16 +20,20 @@
 	}
 }
 
+body {
+  background: #fffaf4;
+}
 .main {
 	max-width: 1120px;
 	margin: 2em auto 0;
 }
 
 header {
-	height: 3em;
-	margin-bottom: 4em;
-	max-width: 1312px;
-	margin: 4em auto 0;
+	padding: 2em;
+	.header__inner {
+  		max-width: 1312px;	
+  		margin: 2rem auto;
+	}
 }
 
 nav {
@@ -42,7 +47,10 @@ nav {
     -webkit-padding-start: 0;
 		li {
 			float: right;
+			font-size: 12px;
 			list-style: none;
+			text-transform: uppercase;
+			letter-spacing: 2px;
 		}
 	}
 }

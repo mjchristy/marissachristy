@@ -24,6 +24,7 @@ article {
 
 .scrollable {
 	overflow: scroll;
+	flex-wrap: nowrap;
 
 	.iphone  {
 		min-width: 200px;

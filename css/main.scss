@@ -5,59 +5,10 @@
 @import 'reset';
 @import 'theme';
 @import 'bootstrapgrid';
+@import 'layout';
 @import 'home';
 @import 'feed';
 @import 'single';
 
-.logo {
-	font-weight: bold;
-	font-size: 3rem;
-	font-family: $serif;
-	float: left;
-	cursor: pointer;
-	&:hover {
-  	text-decoration: none;
-	}
-}
 
-body {
-  background: #fffaf4;
-}
-.main {
-	max-width: 1120px;
-	margin: 2em auto 0;
-}
-
-header {
-	padding: 2em;
-	.header__inner {
-  		max-width: 1312px;	
-  		margin: 2rem auto;
-	}
-}
-
-nav {
-	float: right;
-	
-	ul {
-  	 -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-    -webkit-padding-start: 0;
-		li {
-			float: right;
-			font-size: 12px;
-			list-style: none;
-			text-transform: uppercase;
-			letter-spacing: 2px;
-		}
-	}
-}
-
-
-footer {
-  margin-top: 10rem;
-  text-align: center;
-}
 /*Utils========*/

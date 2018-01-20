@@ -1,12 +1,12 @@
-.home  {
-	margin-top: 8rem;
-}
 
-.home h1 {
-  font-size: 5rem;
-  line-height:5.5rem;
-  margin-top: 6rem;
-
+.byline{
+  font-size: 2rem;
+  line-height:1.25em;
+  margin-top: 4rem;
+  font-weight: 600;
+  @media only screen and (min-width: 768px) {
+  font-size: 3.5rem;
+  }
 }
 
 .feed {
@@ -44,16 +44,16 @@
   line-height: 1.25em;
 }
 
-portfolio-item__tag {
+.portfolio-item__tag {
   @extend .text-tracked;
+  font-weight: bold;
 }
 
 .portfolio-item__title {
   font-size: 3rem;
-  line-height: 1em;
-  font-weight: 100;
+  line-height: 1.1em;
+  font-weight: 600;
   margin-top: .5em;
-  font-weight: bold;
   &:after {
     border-bottom: 2px solid #000;
     content: "";
@@ -84,7 +84,7 @@ a.portfolio-item__img {
 
 #paperless-post .portfolio-item__background {
   background: #CF905B;
-  background: #e2ad7a;
+  background: #f4e1ff;
   display: block;
   width: 100%;
   height: 480px;

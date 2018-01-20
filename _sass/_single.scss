@@ -7,8 +7,6 @@
 }
 
 article {
-
-
 	margin-top: 8rem;
 	p {
 		font-size: 1.5rem;
@@ -25,8 +23,11 @@ article {
 }
 
 .scrollable {
-	min-width: 1000px;
 	overflow: scroll;
+
+	.iphone  {
+		min-width: 200px;
+	}
 }
 
 .article__header p {

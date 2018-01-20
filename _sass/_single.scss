@@ -24,10 +24,13 @@ article {
 
 .scrollable {
 	overflow: scroll;
-	flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
 
 	.iphone  {
 		min-width: 200px;
+		max-width: 200px;
 	}
 }
 

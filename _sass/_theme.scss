@@ -1,6 +1,6 @@
 $sans: -apple-system, BlinkMacSystemFont, sans-serif;
 $serif: $sans;
-$medium: 600;
+$medium: 500;
 $light: 300;
 
 html {
@@ -24,45 +24,75 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: $serif;
 	line-height: 1em;
 	margin-top: 0;
-	margin-bottom: .5em;
+	margin-bottom: 1em;
   -webkit-font-smoothing: antialiased;
   font-weight: $medium;
 }
 
-h1 {
-  font-size: 2rem;
-  line-height: 2.5rem;
-  margin-bottom: 2rem;
+h1, .byline {
+  font-size: 2.5rem;
+  line-height: 1.15em;
+  margin-top: 1.75em;
+  margin-bottom: .25em;
+  font-weight: 500;
   @media (min-width: 1024px)  {
     font-size: 4.5rem;
     line-height: 5rem;
-    margin-bottom: 4rem;
   }
 }
 
 h2 {
-  font-size: 2.5rem;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: $medium;
+  line-height: 1.1em;
+  margin-top: .5em;
+  margin-bottom: 1rem;
+
+
+  @media (min-width: 1024px)  {
+    font-size: 3rem;
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+  }
 }
 
 h3 {
-  font-size: 1.75rem;
-  font-weight: $medium;
-  margin-bottom: 1.5rem;
-  margin-top: 2rem;
+  font-size: 1.5rem;
+  margin-top: 1em;
+  margin-bottom: .75em;
+  line-height: 1.25em;
+
+  @media (min-width: 1024px)  {
+    font-size: 2rem;
+    margin-top: 1.5em;
+  }
 
 }
 
 h4 {
   font-size: 1.5rem;
-  font-weight: $medium;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5em;
 
 }
 
 
 /*========Buttons and Link styles*/
+
+a.btn-link {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 1.5rem;
+  padding-bottom: .5em;
+  outline:none;
+  text-decoration: none;
+  border-bottom: 2px solid #DFAEEA;
+  &:hover {
+    text-decoration: none;
+    color: #b185bb;
+    border-color: #b185bb;
+
+  }
+}
 
 .btn {
   display: inline-block;

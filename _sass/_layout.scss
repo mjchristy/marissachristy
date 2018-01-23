@@ -24,15 +24,17 @@ body {
    margin-bottom: 1rem;
    margin-top: 4rem;
   }
+
+	a,.logo {
+		display: inline-block;
+		cursor: pointer;
+		&:hover {
+			color: $text-highlight;
+	  	text-decoration: none;
+		}
+}
 }
 
-.logo {
-	display: inline-block;
-	cursor: pointer;
-	&:hover {
-  	text-decoration: none;
-	}
-}
 
 .full-screen-preview {
   background: #eee;

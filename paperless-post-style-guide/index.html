@@ -7,14 +7,14 @@ title: Marissa Christy | Digital Product Designer
 	<div class="article__header">
 		<div class="row">
 			<div class="col-md-10">
-				<h1>Cards in cards: a style guide for Paperless Post</h1>
+				<h1>A new style guide for Paperless Post</h1>
 		  </div>
 	  </div>
 		<div class="row">
 			<div class="col-lg-9">
 				<p>At Paperless Post, I was responsible for creating and maintaining our product style guide, serving as a bridge between the brand, design, and engineering departments.</p>
 			</div>
-			<div class="col-lg-2">
+			<div class="col-lg-3">
 				<ul class="credits">
 						<li><b>Company</b><br>Paperless Post</li>
 						<li><b>My role</b><br>Project lead<br>UI design<br>UI development</li>
@@ -26,66 +26,159 @@ title: Marissa Christy | Digital Product Designer
 	<div class="row">
 			<div class="col-md-9">
 				<h2>Challenge</h2>
-				<p>Paperless Post is loved by users for its beautifully-designed cards and branding. Good design must extend beyond the 5x7 card, of course, (or more like 400px in this case), and the award-winning campaign. Our interface and user experience must also reflect the attention to detail and delight that our selection of invitation designs has provided for our users.</p>
+				<p>About six months into my tenure at Paperless Post, we developed a new brand identity system. As part of this effort, I led a small team tasked with translating this identity into a new product style guide and pattern library. The goal of the project was to create a consistent product interface to increase speed to market and create a more consistent user experience.</p>
 			</div>
 		</div>
-		<div class="row scrollable">
-			<div class="col-md-12">
-				<img class="with-border" src="images/typography.png">
-				<br><br>
-				<img class="with-border" src="images/card-block.png">
-				<br><br>
-				<img class="with-border" src="images/image.png">
+	
+		<div class="row">
+			<div class="col-md-9">
+				<h2>Approach</h2>
 
+				<p>This is the approach we took over the course of the project to define an initial set of rules and components.
+					<h3>Process</h3>
+					<ul>
+					<li>Conducted an audit of existing patterns and styles</li>
+					<li>Created a minimal list of required elements</li>
+					<li>Worked with the creative directors to develop a design scale and system</li>
+					<li>Designed new components according to that system, stress testing our rules against various use cases.</li>
+					<li>Created a sketch style guide for use within the PD team</li>
+					<li>Worked closely with the developers to implement the new system.</li>
+				</ul>
+				<h3>Guiding principles</h3>
+				<p>In the past, the design team had not had a consistent style. When conducting a CSS audit, we found font-style declarations of 13, 14, 15, 16, 17, 18, 19, 20, 21, etc. You get the idea. 
 
-		  	<div class="caption">
-		  		<span class="caption__title">Mobile web onboarding flow:</span> Simple graphics explain key product functionality.
-		  	</div>
-		  </div>
-		</div>
-				<h3>Mobile web to desktop conversion</h3>
-			</div>
-		</div>
-		<div class="row scrollable">
-	  	<div class="col-md-12">
-	  		<img class="flow" src="images/Mobile-web-flow-phase-1.png">
-	  	</div>
-		</div>
-		
-		<div class="row scrollable">
-			<div class="col-md-3">
-				<div class="iphone">
-					<img src="images/detail_view.png">
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="iphone">
-					<img src="images/detail_view_bottom.png">
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="iphone">
-					<img src="images/share.png">
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="iphone">
-					<img src="images/favorites.png">
-				</div>
+				<p>In order to prevent this sort of chaos, we created the following principles:		
+				<ul>
+					<li>Use the fewest number of unique styles needed to achieve visual hierarchy.</li>
+					<li>Label font styles according to usage not size/typeface/color.</li>
+					<li>Use a typographic scale.</li>
+					<li>Use a baseline grid for vertical rhythm.</li>
+				</ul>
+			
+				<br><br>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-		  	<div class="caption">
-		  		<span class="caption__title">Desktop conversion. Providing ways of sharing and saving card designs.</span> 
+				<img src="images/calculator.jpg">
+				<div class="caption">
+		  		<span class="caption__title"></span> Actual photo of my journal where I was calculting slope. I honestly don't remember why, but I think it had to do with how often a given line-height would intersect with the baseline grid.
 		  	</div>
-		  </div>
+			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-9">
+				<h2>Results</h2>
+				<p>After working with the brand team on the styles, I set out to create a sketch file used to communicate with the design team. I also created a pattern library with the front-end team to document the code.
+			 <h4>Grids and spacing</h4>
+       <p>We chose 16 as the base unit of the Paperless Post grid. All specified units of height, width, padding, margin and font size related to this scale. With small elements, if increments of 16 did not provide the proper finesse for sufficient visual hierarchy, we broke to the 4px or 8px scale.</p>
+				<h4>Rhythm</h4>
+				<p>Paperless Post's available type sizes are based on a custom, interval-based scale. </p>
+			</div>
+		</div>
+		<div class="row scrollable">
+			<div class="col-md-9">
+				<table class="table scrolling-table">
+                    <thead>
+                        <tr>
+                            <td><span class="size-10">10</span></td>
+
+                            <td><span class="size-12">12</span></td>
+
+                            <td><span class="size-16">16</span></td>
+
+                            <td><span class="size-20">20</span></td>
+
+                            <td><span class="size-24">24</span></td>
+
+                            <td><span class="size-32">32</span></td>
+
+                            <td><span class="size-40">40</span></td>
+
+                            <td><span class="size-48">48</span></td>
+
+                            <td><span class="size-64">64</span></td>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                    	<tr>
+                        <td><span>.625em</span></td>
+
+                        <td><span>.75em</span></td>
+
+                        <td><span>1em</span></td>
+
+                        <td><span>1.25em</span></td>
+
+                        <td><span>1.5em</span></td>
+
+                        <td><span>2em</span></td>
+
+                        <td><span>2.25em</span></td>
+
+                        <td><span>3em</span></td>
+
+                        <td><span>4em</span></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="1">+2px</td>
+
+                        <td colspan="3">+4px</td>
+
+                        <td colspan="3">+8px</td>
+
+                        <td colspan="2">+16px</td>
+                    </tr>
+         </tbody>
+       </table>
+      </div>
+     </div>
+     <div class="row">
+     	<div class="col-md-12">
+       	<h3>Sketch UI kit</h3>
+		<div class="row">
+			<div class="col-md-12">
+				<img class="with-border" src="images/typography.png">
+				<br><br>
+				<img class="with-border" src="images/colors.png">
+				<br><br>
+				<img class="with-border" src="images/image.png">
+				<br><br>
+<div class="row scrollable">
+			<div class="col-md-3">
+				<div class="iphone">
+					<img src="images/large-heading.png">
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="iphone">
+					<img src="images/onboarding.png">
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="iphone">
+					<img src="images/scrolling-modal.png">
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="iphone">
+					<img src="images/search.png">
+				</div>
+			</div>
+		</div>
+
+		  	<div class="caption">
+		  		<span class="caption__title">Sketch style guide.</span>A sample of exported artboards from our sketch file UI kit.
+		  	</div>
+		  </div>
+    </div>
+		
+		<div class="row">
+			<div class="col-md-9">
 				<h2>Conclusion</h2>
-				<p>Write this</p>
-				<a href="/paperless-post-mobile-web-part-2" class="btn">Continue to part 2</a>
+				<p>A style guide is a never-ending project, but we've seen a marked improvement in our UI since we undertook this effort. Communication between front-end and design has been more open and fluid, and designers are more concerned with following the guide that personal expression.</p>
 			</div>
 		</div>
 	</div>

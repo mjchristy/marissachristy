@@ -22,7 +22,7 @@
 }
 
 .case-study__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: $medium;
   line-height: 1.25em;
   margin-top: 1.25em;
@@ -44,7 +44,7 @@
 
 .portfolio-item {
    box-sizing: border-box;
-   margin: auto -16px 10rem;
+   margin: auto -16px 4rem;
 }
 
 .portfolio-item:hover {
@@ -57,6 +57,7 @@
     display: flex;
     align-items: center;
     height: 480px;
+    margin: auto -16px 10rem;
   }
 }
 

@@ -22,11 +22,14 @@ html {
 
 a {
   color: #000;
+  cursor:url('../images/cursor-alt.png'), auto;
   &:hover {
     color: #000;
   }
 }
-
+.row {
+  cursor: auto;
+}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $serif;
@@ -161,3 +164,23 @@ a.btn-link {
     text-align: left;
   }
 }
+
+.iphone-wrapper {
+  border-radius: 9px;
+  background-color: white;
+  padding: 20px 8px 20px;
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0, .12);
+  margin-bottom: 25px;
+
+  @media (min-width: 1024px)  {
+      border-radius: 25px;
+      border: 1px solid #eee;
+      padding: 40px 12px 25px;
+      box-shadow: 0 0 20px rgba(0,0,0, .12);
+      margin-bottom: 0px;
+
+  }
+}
+
+

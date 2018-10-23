@@ -29,6 +29,7 @@
 
   @media (min-width: 1024px)  {
     font-size: 3rem;
+    margin-top: .25em;
   }
 }
 
@@ -49,7 +50,6 @@
 
 .portfolio-item:hover {
   outline: none;
-  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
@@ -95,6 +95,46 @@ a.portfolio-item__img {
   font-size: 1.25rem;
   line-height: 1.75em;
 }
+
+.portfolio-item.featured-case-study {
+  @media (min-width: 1024px)  {
+    background: url('../images/flyer-bg.jpg') center center;
+    background-size: contain;
+    padding: 0;
+  }
+}
+
+.featured-video-wrapper {
+   background-color: #DFAEEA;
+   padding: 32px;
+   margin: 16px;
+
+    @media (min-width: 1024px)  {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.iphone-wrapper {
+  border-radius: 9px;
+  background-color: white;
+  padding: 20px 8px 20px;
+  max-width: 150px;
+  box-shadow: 0 0 10px rgba(0,0,0, .12);
+  margin: auto;
+
+  @media (min-width: 1024px)  {
+      border-radius: 25px;
+      border: 1px solid #eee;
+      padding: 40px 12px 25px;
+      box-shadow: 0 0 20px rgba(0,0,0, .12);
+      margin-bottom: 0px;
+      max-width: 300px;
+
+  }
+}
+
 
 
 @media only screen and (min-width: 1024px) {

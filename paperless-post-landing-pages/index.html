@@ -11,20 +11,20 @@ title: Marissa Christy | Digital Product Designer
 			</div>
 		</div>
 				<div class="article__details row">
-					<div class="col-6">
+					<div class="col-12">
+					<p>I created a templatized system of landing pages to help customers browse and understand our product and streamline our internal processes.</p>
+				 </div>
+					<div class="col-9">
 						<ul class="credits">
-							<li><b>Company:</b> Paperless Post</li>
-							<li><b>My role:</b> UX & Strategy, Design, Front-end Development</li>
+							<li><b>My role:</b> I identified the need for a systematized approach to building pages, pitched the project to leadership, and got it on the roadmap. I designed all the components, style guide, and helped with implementation on the front-end. If there ever was a baby, this one was mine.</li>
 						</ul>
 					</div>
-					<div class="col-6">
+					<div class="col-3">
 						<ul class="credits">
-							<li><b>Additional design:</b> Colleen Griffiths, Shirley Huong</li>
-							<li><b>Project management:</b>Ivy Lu, Karl Gabrielyan</li>
+							<li><b>Additional credits</b><br>Colleen Griffiths (brand), Shirley Huong (brand), Ivy Lu (PM), Karl Gabrielyan (SEO, PM)</li>
 						</ul>
 					</div>
 				</div>
-				<p>I worked to create a templatized system of product landing pages to help users understand our product and guide them to the right category.</p>
 
 		</div>
  </div>
@@ -32,52 +32,64 @@ title: Marissa Christy | Digital Product Designer
 			
 <div class="article__body">
 	<div class="row">
-			<div class="col-9">
-				<h2>Problem</h2>
-				<p>Users browsing for cards at higher level landing pages (such as all wedding or all holidays) we’re getting a mixed experience of content that wasn’t very browsable and had poorer conversion.</p>
-
-				<p>First, let's take a look at who our users were, and how they were getting there.</p>
-
-		  </div>
-		<div class="col-12">
-		<img src="../images/landing-page-wires.png"></div>
-	  </div>
+		<div class="col-9">
+			<h2>The problem</h2>
+			<p>At Paperless Post, we frequently had a need to create new landing pages. These pages fell into one of two categories: product marketing or product merchandizing. Strategically, the internal teams wanted more of them, and we needed to make them more efficiently.</p>
+		
 	</div>
-	<div class="row">
+</div>
+
+
+<h3>Why more pages? The user need.</h3>
+<div class="row">
+	<div class="col-md-6">
+		<p><b>Merchandized pages</b> are one solution to helping users sort through a broad product offering. In particular with our business, where they only check out with one design, we didn't need users to wade through a large result set. For example,  it's not optimal to take users to a grid of "general holiday invitations"  because it's not shoppable (no one needs both New Year's Eve and Valentine's Day invitaitons). You want to guide users into a grid of highly-relevant products.</p>
+  </div>
+  <div class="col-md-6">
+  	<p><b>Education pages</b> are dedicated to explaining how a product or service works. Software websites are often entirely made up of these types of pages (because you have to sign up to get started (i.e., Sketch, Spotify, Trunk Club). We allowed users to browse card designs before signing up (think Squarespace), but as a functional software service (not just pretty cards), we needed to do a better job explaining the value.</p>
+  </div>
+ </div>
+ 		<img src="images/landing-page-wires.png">
+	  <div class="caption">
+	  	Proposed heirarchy of page types on paperlesspost.com.
+	  </div>
+
+<h3>The business need</h3>
+
+<p>Creating pages was tedious work, and often took longer than you would expect, like spanning multiple sprints to launch a page. Brand designers would create pixel perfect comps (I once got one made in inDesign), but only at one size. There was a lot of interpretation going on, a lot of how responsive images work, a lot of net-new styles, a lot of churn.</p>
+
+
+<h2>The solution</h2>
+<p>Create a system of components with sensible parameters that can be plugged into pages easily, reordered, and updated by business teams.</p>
+
+<h3>The system</h3>
+<p>I looked over old pages and did competitive research to identify what patterns we would need. I looked at how brand was manually creating assets and thought — could we automate that?</p>
+
+<p>By using live card data, admins only had to enter card IDs and a background color. We thought these could be automated in the future.</p>
+
+<p>Educational “slats” offered product insight while highlighting top-performing categories of invitations and save the dates.</p>
+
+<h3>The curveball</h3>
+
+<h2>Conclusion<h2>
+<p>Our new landing pages have out performed the original mixed grids. (For instance, the wedding page increased the average wedding customer value by 2%). We have since created versions of these pages for other top level landing pages including a successful holiday page. The development time for new pages is down to 2 days all-in, rather than 2+ weeks.  Business teams are using GitHub to update the LPp= json.
+</p>
+<h3>Three types of user behaviors</h3>
+<div class="row">
 	<div class="col-4">
 		<h4>Landers</h4>
-		<p class="small-p">Many people come to these pages from organic search results or from SEM. This means this is the first interaction with our brand and product. If they were searching they likely have a specific need and are looking to narrow into a</p>
+		<p class="small-p">Many people come to these pages from SEM or SEO. This means this is the first interaction with our brand and product. If they were searching they likely have a specific need and are looking to narrow into a category.</p>
 		</p>
 	</div>
 	<div class="col-4">
-		<h4>Browsers</h4>
-		<p class="small-p">These pages are linked to from our homepage, nav and promotional spots in emails and other pages. Users that choose this method of browsing over more specific categories may want to narrow, but prefer shopping using large blocks and buttons to the navigation. <i>They are looking for guidances</i></p>
+		<h4>Casual browsers</h4>
+		<p class="small-p">These pages are linked to from our homepage, nav and promotional spots in emails and other pages. Users that choose this method of browsing over more specific categories may want to narrow, but prefer shopping using large blocks and buttons to the navigation.</p>
 	</div>
 	<div class="col-4">
 		<h4>Researchers</h4>
 		<p class="small-p">These users had the opportunity to narrow but chose to click the section page. This is the most interesting use case. Why do they click the section? Perhaps they need more education/context about our wedding products.</p>
-		</p>
-	</div>
 	</div>
 </div>
 
 
-<h2>Hypothesis</h2>
-<p>Landing pages that successfully combines targeted merchandising and light educationwill increase new user conversion. It will do this by helping Landers narrow, guiding the Browsers, and educating the Researchers. Furthermore, we have the opportunity to speak directly to a persona, rather than a broad audience.
-</p>
-
-<h2>Solution</h2>
-<p>Develop a series of easily generated landing pages with a mix of merchandising (recommended categories and cards), product education, and editorial content.</p>
-</div>
-</div>
-<img src="/images/ui-kit.jpg">
-
-<h2>Process</h2>
-
-<p>By using live card data, admins only had to enter card IDs and a background color. We thought these could be automated in the future.</p>
-
-Educational “slats” offered product insight while highlighting top-performing categories of invitations and save the dates. 
-
-Conclusion
-The wedding version of the page was a winner over control, surprisingly increasing ACV by 1-2%. We have since created versions of these pages for other top level landing pages including a successful holiday page.
 </article>

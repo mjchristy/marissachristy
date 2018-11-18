@@ -22,7 +22,6 @@ html {
 
 a {
   color: #000;
-  cursor:url('../images/cursor-alt.png'), auto;
   &:hover {
     color: #000;
   }
@@ -143,6 +142,9 @@ a.btn-link {
   padding: 0px 3rem;
 }
 
+.link { 
+  text-decoration: underline;
+ }
 
 .table {
   border-collapse: initial;
@@ -176,14 +178,12 @@ a.btn-link {
   background-color: white;
   padding: 20px 8px 20px;
   max-width: 300px;
-  box-shadow: 0 0 10px rgba(0,0,0, .12);
   margin-bottom: 25px;
 
   @media (min-width: 1024px)  {
       border-radius: 25px;
-      border: 1px solid #eee;
+      border: 1px solid #ccc;
       padding: 40px 12px 25px;
-      box-shadow: 0 0 20px rgba(0,0,0, .12);
       margin-bottom: 0px;
 
   }

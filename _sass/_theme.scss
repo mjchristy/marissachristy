@@ -128,10 +128,9 @@ a.btn-link {
   font-weight: bold;
   text-align: center;
   color: white; 
-  background: #000;
+  background: #DFAEEA;
   &:hover {
-    background: transparent;
-    color: #000;
+    background: darken(#DFAEEA, 5%);
     text-decoration: none;
   }
 }
